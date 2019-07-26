@@ -1,24 +1,3 @@
-# README
+# Devise + Geocoder Example Rails App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+> I don't personally recommend using this solution. It was built for situations where Devise isn't storing a real IP address. It adds the request object to the current Thread so that the User model can access it and leverage it to store the IP address for geo coding purposes. So be warned.
